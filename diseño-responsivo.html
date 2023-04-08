@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body div:nth-child(1){
+            background: purple;
+        }
+        body div:nth-child(2){
+            background: red;
+        }
+        @media (min-width: 300px) {
+            body div:nth-child(1){
+                background: salmon;
+            }
+        }
+        @media (max-width: 300px) {
+            body div:nth-child(2){
+                background: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>Test min-width</div>
+    <div>Test max-width</div>
+</body>
+</html>
