@@ -1,5 +1,3 @@
-# html-css-curse-frontend-developer
-Curso de frontend básico
 # EN-readme.md
 # # html-css-curse-frontend-developer
 Basic frontend developer course carried out following the platzi frontend-developer course.
